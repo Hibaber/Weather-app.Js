@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  height: 90vh;
+  background: #2980B9;
+
+  /* display:flex;
+  justify-content:center;
+  align-items:center; */
+
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align:center;
+  margin: 200px auto;
+  border: 1px rgba(141, 138, 138, 0.453) solid;
+  border-radius: 10px;
+  background-color: rgba(245, 241, 241, 0.453);
+  width: 400px;
+  height: 600px;
+}
+
+.temperature-value,
+.temperature-description,
+.location,
+.animated-icon {
+  margin-bottom: 20px;
+}

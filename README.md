@@ -1,4 +1,4 @@
-# Weather-app.Js
+# Weather-app-Js
 
 Basic weather forecast application built with Vanilla Javascript, Html & Css fetching data from **Open Weather API**
 
